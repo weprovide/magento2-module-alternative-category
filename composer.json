@@ -1,0 +1,24 @@
+{
+    "name": "weprovide/magento2-module-alternative-category",
+    "description": "A module which allows for an alternative category to be configured for every category",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "julian@weprovide.com",
+            "name": "Julian van den Berkmortel"
+        }
+    ],
+    "require": {
+        "magento/framework": "~103.0.0",
+        "magento/module-catalog": "~104.0.0",
+        "weprovide/magento2-core": "^1.0"
+    },
+    "autoload": {
+        "files": [ "src/registration.php" ],
+        "psr-4": {
+            "WeProvide\\AlternativeCategory\\": "src"
+        }
+    }
+}
